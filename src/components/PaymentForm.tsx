@@ -22,8 +22,6 @@ export const PaymentForm: FC = () => {
     setForm({ ...form, [name]: value })
   }
 
-  console.log(machine.value)
-
   return (
     <div className="card w-96 bg-base-100 shadow-xl shadow-gray-900 p-8">
       <h2 className="text-2xl font-bold mb-4">Payment form</h2>
